@@ -6,7 +6,11 @@
       </div>
       <nav class="mainNav">
         <ul>
-          <li v-for="(link, index) in links" :key="index">
+          <li
+            v-for="(link, index) in links"
+            :key="index"
+            :class="{ active: link.current }"
+          >
             <a :href="link.url">{{ link.text }}</a>
           </li>
         </ul>
@@ -94,10 +98,16 @@ header {
     list-style: none;
   }
 
-  & nav ul li a {
+  nav ul li a {
     color: var(--primary-color);
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  & .active a {
+    color: var(--secondary-color);
+    border-bottom: 0.375rem solid var(--secondary-color);
   }
 }
 </style>
