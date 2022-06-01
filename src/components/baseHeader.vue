@@ -94,7 +94,7 @@ header {
   }
 
   & .imgLogo img {
-    max-width: 5rem;
+    max-width: 5.25rem;
     width: 100%;
   }
   & nav ul {
