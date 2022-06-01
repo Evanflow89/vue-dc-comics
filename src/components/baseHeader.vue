@@ -83,14 +83,19 @@ export default {
 
 <style lang="scss">
 header {
-  padding: 1.25rem 0;
   background-color: white;
   display: flex;
   flex-direction: row;
   & .container {
+    height: 7.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  & .imgLogo img {
+    max-width: 5rem;
+    width: 100%;
   }
   & nav ul {
     display: flex;
