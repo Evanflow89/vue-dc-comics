@@ -6,35 +6,8 @@
       </div>
       <nav class="mainNav">
         <ul>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
+          <li v-for="(link, index) in links" :key="index">
+            <a :href="link.url">{{ link.text }}</a>
           </li>
         </ul>
       </nav>
