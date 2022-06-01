@@ -56,9 +56,18 @@ header {
   & .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   & nav ul {
     display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+
+  & nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
   }
 }
 </style>
