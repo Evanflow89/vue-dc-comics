@@ -112,7 +112,17 @@ header {
   }
   & .active a {
     color: var(--secondary-color);
-    border-bottom: 0.375rem solid var(--secondary-color);
+    position: relative;
+  }
+  & .active a::before {
+    content: "";
+    background-color: var(--secondary-color);
+    height: 0.5rem;
+    width: 3.25rem;
+    position: absolute;
+    top: 5.6rem;
+    left: 50%;
+    transform: translate(-50%, -25px);
   }
 }
 </style>
