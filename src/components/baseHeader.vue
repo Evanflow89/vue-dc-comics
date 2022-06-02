@@ -88,7 +88,6 @@ header {
   flex-direction: row;
   & .container {
     height: 7.75rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
   }

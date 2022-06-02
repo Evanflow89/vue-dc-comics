@@ -17,7 +17,6 @@ main {
   & .container {
     height: 7.75rem;
     width: 100%;
-    display: flex;
     align-items: center;
     color: white;
     font-weight: 600;

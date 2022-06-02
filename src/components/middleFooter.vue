@@ -70,9 +70,6 @@ export default {};
   background-size: cover;
   height: 21.875rem;
   overflow: hidden;
-  .container {
-    display: flex;
-  }
   .col-left {
     width: calc(50% / 3);
   }
@@ -90,6 +87,7 @@ export default {};
   ul li a {
     color: var(--footer-color);
     text-decoration: none;
+    font-size: 0.875rem;
   }
   .col-right img {
     width: 31rem;
