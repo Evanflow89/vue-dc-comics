@@ -68,24 +68,32 @@ export default {};
   background-image: url("../assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 21.875rem;
+  overflow: hidden;
   .container {
     display: flex;
-    h2 {
-      color: white;
-      padding: 1.875rem 0 1.25rem 0;
-    }
   }
   .col-left {
     width: calc(50% / 3);
   }
   .col-right {
     width: 50%;
-    position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul li a {
+    color: var(--footer-color);
+    text-decoration: none;
   }
   .col-right img {
-    object-fit: none;
-    object-position: -1.875rem -6rem;
+    width: 31rem;
+    object-position: 0 -6.25rem;
   }
 }
 </style>
