@@ -4,7 +4,9 @@
       <div class="col-left"></div>
       <div class="col-left"></div>
       <div class="col-left"></div>
-      <div class="col-right"></div>
+      <div class="col-right">
+        <img src="../assets/img/dc-logo-bg.png" alt="Dc Logo" />
+      </div>
     </div>
   </div>
 </template>
@@ -16,13 +18,22 @@ export default {};
 <style lang="scss">
 .middleFooter {
   background-image: url("../assets/img/footer-bg.jpg");
-  &.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    display: flex;
   }
   .col-left {
-    width: 20%;
+    width: calc(50% / 3);
   }
   .col-right {
-    width: 40%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .col-right img {
+    object-fit: none;
+    object-position: -1.875rem -6rem;
   }
 }
 </style>
