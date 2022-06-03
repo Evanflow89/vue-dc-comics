@@ -3,6 +3,9 @@
     <div class="container foot">
       <div class="btn_foot"></div>
       <div class="social_foot">
+        <div class="follow">
+          <h3>Follow Us</h3>
+        </div>
         <div class="icon">
           <img src="../assets/img/footer-facebook.png" alt="facebook logo" />
         </div>
@@ -40,6 +43,7 @@ export default {};
 
 .social_foot {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 1.25rem;
 }
 </style>
