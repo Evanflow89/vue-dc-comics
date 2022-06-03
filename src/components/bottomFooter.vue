@@ -1,7 +1,9 @@
 <template>
   <div class="footerBottom">
     <div class="container foot">
-      <div class="btn_foot"></div>
+      <div class="btn_foot">
+        <button class="signUp">Sign-up now!</button>
+      </div>
       <div class="social_foot">
         <div class="follow">
           <h3>Follow Us</h3>
@@ -45,5 +47,14 @@ export default {};
   display: flex;
   align-items: center;
   gap: 1.25rem;
+}
+
+.signUp {
+  background-color: var(--primary-color);
+  color: white;
+  border: 0.125rem solid var(--secondary-color);
+  text-transform: uppercase;
+  padding: 0.625rem;
+  font-size: 1rem;
 }
 </style>
