@@ -1,6 +1,8 @@
 <template>
   <div class="dcCard">
-    <img :src="thumb" :alt="series" />
+    <div class="imgCard">
+      <img :src="thumb" :alt="series" />
+    </div>
     <h4>{{ title }}</h4>
   </div>
 </template>

@@ -1,11 +1,11 @@
 <template>
   <main>
-    <div class="container">
+    <div class="container top">
       <div class="currentSeries">
         <h2>current Series</h2>
       </div>
     </div>
-    <div class="container">
+    <div class="container middle">
       <ul class="dcCards">
         <li v-for="(comic, index) in comics" :key="index">
           <cardDc
@@ -15,6 +15,9 @@
           />
         </li>
       </ul>
+    </div>
+    <div class="container bottom">
+      <button>Load More</button>
     </div>
   </main>
 </template>
@@ -134,6 +137,10 @@ main {
   .currentSeries h2 {
     padding: 0;
   }
+
+  .container.middle {
+    padding-bottom: 3.125rem;
+  }
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -142,6 +149,17 @@ main {
   }
   ul li {
     width: calc(100% / 6 - 1.25rem);
+  }
+  .container.bottom {
+    justify-content: center;
+  }
+  .container.bottom button {
+    background-color: var(--secondary-color);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.625rem 3.75rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
   }
 }
 </style>
