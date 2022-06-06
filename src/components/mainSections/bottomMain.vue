@@ -1,6 +1,17 @@
-<template></template>
+<template>
+  <main>
+    <div class="container">
+      <ul class="dcCards">
+        <li v-for="(comic, index) in comics" :key="index">
+          <cardDc :thumb="comic.thumb" :alt="comic.series" />
+        </li>
+      </ul>
+    </div>
+  </main>
+</template>
 
 <script>
+import cardDc from "../commons/cardDc.vue";
 export default {
   name: "bottomMain",
   components: {
