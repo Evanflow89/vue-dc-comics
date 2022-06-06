@@ -1,26 +1,21 @@
 <template>
   <main>
-    <div class="container">
-      <div class="content">&lt;--Content Goes Here--&gt;</div>
-    </div>
+    <upperMain />
   </main>
 </template>
 
 <script>
-export default {};
+import upperMain from "../mainSections/upperMain.vue";
+export default {
+  name: "baseMain",
+  components: {
+    upperMain,
+  },
+};
 </script>
 
 <style lang="scss">
 main {
   background-color: var(--mainpage-color);
-
-  & .container {
-    height: 7.75rem;
-    width: 100%;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-    font-size: 1.75rem;
-  }
 }
 </style>
