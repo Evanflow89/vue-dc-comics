@@ -3,7 +3,11 @@
     <div class="container">
       <ul class="dcCards">
         <li v-for="(comic, index) in comics" :key="index">
-          <cardDc :thumb="comic.thumb" :alt="comic.series" />
+          <cardDc
+            :thumb="comic.thumb"
+            :alt="comic.series"
+            :title="comic.series"
+          />
         </li>
       </ul>
     </div>

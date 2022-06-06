@@ -1,6 +1,7 @@
 <template>
   <div class="dcCard">
     <img :src="thumb" :alt="series" />
+    <h4>{{ title }}</h4>
   </div>
 </template>
 
@@ -8,6 +9,7 @@
 export default {
   name: "cardDc",
   props: {
+    title: String,
     thumb: String,
     series: String,
   },
