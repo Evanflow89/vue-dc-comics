@@ -110,5 +110,11 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+main {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 </style>
