@@ -16,5 +16,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+.dcCard img {
+  width: 100%;
+}
 </style>

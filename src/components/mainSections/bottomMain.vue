@@ -119,6 +119,11 @@ main {
   ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+  ul li {
+    width: calc(100% / 6 - 1.25rem);
   }
 }
 </style>

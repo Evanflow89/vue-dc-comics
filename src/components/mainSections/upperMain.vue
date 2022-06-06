@@ -12,6 +12,9 @@ export default {};
 
 <style lang="scss">
 main {
+  .jumbo_img {
+    margin-bottom: 3.125rem;
+  }
   .jumbo_img img {
     width: 100%;
     max-height: 19rem;
