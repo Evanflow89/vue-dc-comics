@@ -108,20 +108,21 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
-  }
-  & .active a {
-    color: var(--secondary-color);
     position: relative;
   }
-  & .active a::before {
-    content: "";
-    background-color: var(--secondary-color);
-    height: 0.5rem;
-    width: 3.25rem;
+  & .active a,
+  a:hover {
+    color: var(--secondary-color);
+  }
+
+  .active a:after,
+  a:hover:after {
     position: absolute;
-    top: 5.6rem;
-    left: 50%;
-    transform: translate(-50%, -25px);
+    content: "";
+    border-bottom: 0.375rem solid var(--secondary-color);
+    width: 100%;
+    bottom: -3.25rem;
+    left: 0;
   }
 }
 </style>
