@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import cardDc from "../commons/cardDc.vue";
+import CardDc from "../commons/CardDc.vue";
 export default {
   name: "bottomMain",
   components: {
-    cardDc,
+    CardDc,
   },
   data() {
     return {

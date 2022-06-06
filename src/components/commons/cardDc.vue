@@ -22,4 +22,9 @@ export default {
 .dcCard img {
   width: 100%;
 }
+
+.imgCard {
+  max-height: 11.25rem;
+  overflow: hidden;
+}
 </style>
