@@ -1,6 +1,11 @@
 <template>
   <main>
     <div class="container">
+      <div class="currentSeries">
+        <h2>current Series</h2>
+      </div>
+    </div>
+    <div class="container">
       <ul class="dcCards">
         <li v-for="(comic, index) in comics" :key="index">
           <cardDc
@@ -116,6 +121,19 @@ export default {
 
 <style lang="scss">
 main {
+  .currentSeries {
+    display: flex;
+    background-color: var(--secondary-color);
+    margin-top: -5rem;
+    height: 3.125rem;
+    width: 15.625rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .currentSeries h2 {
+    padding: 0;
+  }
   ul {
     display: flex;
     flex-wrap: wrap;
