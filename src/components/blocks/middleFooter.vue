@@ -89,6 +89,10 @@ export default {};
     text-decoration: none;
     font-size: 0.875rem;
   }
+
+  ul li a:hover {
+    color: var(--secondary-color);
+  }
   .col-right img {
     width: 31rem;
     object-position: 0 -6.25rem;

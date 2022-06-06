@@ -63,4 +63,8 @@ export default {};
   padding: 0.625rem;
   font-size: 1rem;
 }
+
+.signUp:hover {
+  background-color: var(--secondary-color);
+}
 </style>
