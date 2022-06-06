@@ -9,19 +9,25 @@
           <h3>Follow Us</h3>
         </div>
         <div class="icon">
-          <img src="../assets/img/footer-facebook.png" alt="facebook logo" />
+          <img src="../../assets/img/footer-facebook.png" alt="facebook logo" />
         </div>
         <div class="icon">
-          <img src="../assets/img/footer-twitter.png" alt="twitter logo" />
+          <img src="../../assets/img/footer-twitter.png" alt="twitter logo" />
         </div>
         <div class="icon">
-          <img src="../assets/img/footer-youtube.png" alt="youtube logo" />
+          <img src="../../assets/img/footer-youtube.png" alt="youtube logo" />
         </div>
         <div class="icon">
-          <img src="../assets/img/footer-pinterest.png" alt="pinterest logo" />
+          <img
+            src="../../assets/img/footer-pinterest.png"
+            alt="pinterest logo"
+          />
         </div>
         <div class="icon">
-          <img src="../assets/img/footer-periscope.png" alt="periscope logo" />
+          <img
+            src="../../assets/img/footer-periscope.png"
+            alt="periscope logo"
+          />
         </div>
       </div>
     </div>

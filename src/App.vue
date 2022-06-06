@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import baseHeader from "./components/baseHeader.vue";
-import baseMain from "./components/baseMain.vue";
-import topFooter from "./components/topFooter.vue";
-import middleFooter from "./components/middleFooter.vue";
-import bottomFooter from "./components/bottomFooter.vue";
+import baseHeader from "./components/blocks/baseHeader.vue";
+import baseMain from "./components/blocks/baseMain.vue";
+import topFooter from "./components/blocks/topFooter.vue";
+import middleFooter from "./components/blocks/middleFooter.vue";
+import bottomFooter from "./components/blocks/bottomFooter.vue";
 
 export default {
   name: "App",

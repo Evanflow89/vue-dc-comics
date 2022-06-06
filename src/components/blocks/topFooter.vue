@@ -4,7 +4,7 @@
       <div class="card">
         <div class="img_card">
           <img
-            src="../assets/img/buy-comics-digital-comics.png"
+            src="../../assets/img/buy-comics-digital-comics.png"
             alt="Dc Digital Comics"
           />
         </div>
@@ -13,7 +13,7 @@
       <div class="card">
         <div class="img_card">
           <img
-            src="../assets/img/buy-comics-merchandise.png"
+            src="../../assets/img/buy-comics-merchandise.png"
             alt="Dc Merchandise"
           />
         </div>
@@ -22,7 +22,7 @@
       <div class="card">
         <div class="img_card">
           <img
-            src="../assets/img/buy-comics-subscriptions.png"
+            src="../../assets/img/buy-comics-subscriptions.png"
             alt="Dc Subscriptions"
           />
         </div>
@@ -31,7 +31,7 @@
       <div class="card">
         <div class="img_card">
           <img
-            src="../assets/img/buy-comics-shop-locator.png"
+            src="../../assets/img/buy-comics-shop-locator.png"
             alt="Dc Shop Locator"
           />
         </div>
@@ -40,7 +40,7 @@
       <div class="card">
         <div class="img_card">
           <img
-            src="../assets/img/buy-dc-power-visa.svg"
+            src="../../assets/img/buy-dc-power-visa.svg"
             alt="Dc Buy Power Visa"
           />
         </div>

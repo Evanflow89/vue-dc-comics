@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="col-right">
-        <img src="../assets/img/dc-logo-bg.png" alt="Dc Logo" />
+        <img src="../../assets/img/dc-logo-bg.png" alt="Dc Logo" />
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ export default {};
 
 <style lang="scss">
 .middleFooter {
-  background-image: url("../assets/img/footer-bg.jpg");
+  background-image: url("../../assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 21.875rem;
