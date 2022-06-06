@@ -14,7 +14,7 @@ export default {};
 main {
   .jumbo_img img {
     width: 100%;
-    max-height: 18.75rem;
+    max-height: 19rem;
     object-fit: cover;
     object-position: center top;
   }
